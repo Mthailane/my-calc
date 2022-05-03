@@ -8,7 +8,7 @@
 </head>
 
 <body onkeypress="manipularTeclado()">
-    <h1>"My-Calc"</h1>
+
     <table>
         <tr>
             <td colspan="6"><input type="text" id="display" value="0" disabled></td>
@@ -36,11 +36,14 @@
             <td><input type="button" value="0" onclick="atualizarDisplay(this)" /></td>
             <td><input type="button" value="=" onclick="calcularOperacao()" /></td>
             <td><input type="button" value="/" onclick="atualizarOperacao(this)" /></td>
+            <td><input type="button" value="." onclick="atualizarDisplay(this)"></td>
+            <td><input type="button" value="(" onclick="atualizarDisplay(this)"></td>
+            <td><input type="button" value=")" onclick="atualizarDisplay(this)"></td>
         </tr>
     </table>
 
     <script src="js/calc_functions.js"></script>
-    <img src="img/dog.jpg" alt="Dog" />
+    <img src="https://c.tenor.com/dyBEAQ9m278AAAAC/spy-x-family-anya-forger.gif" alt="anya" />
 
 </body>
 
